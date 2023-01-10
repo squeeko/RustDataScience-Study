@@ -1,7 +1,7 @@
 use polars::prelude::*;
 
 fn main() {
-    let df = CsvReader::from_path("/Users/squeeko/RustDataScience-Study/data/MalwareArtifacts.csv")
+    let df = CsvReader::from_path("/Users/jallgood/RustDataScience-Study/data/MalwareArtifacts.csv")
         .expect("cannot read csv")
         .infer_schema(None)
         .has_header(true)

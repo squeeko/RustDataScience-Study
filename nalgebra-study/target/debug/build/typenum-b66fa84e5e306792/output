@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/jallgood/RustDataScience-Study/nalgebra-study/target/debug/build/typenum-b66fa84e5e306792/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/jallgood/RustDataScience-Study/nalgebra-study/target/debug/build/typenum-b66fa84e5e306792/out/op.rs
