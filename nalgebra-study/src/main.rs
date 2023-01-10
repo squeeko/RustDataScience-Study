@@ -1,8 +1,9 @@
-use na::{U2, U3, Dynamic, ArrayStorage, VecStorage, Matrix, Matrix2x3,
+use na::{U2, U3, DMatrix, Dynamic, ArrayStorage, VecStorage, Matrix, Matrix2x3,
      Matrix3x4, OMatrix, RowVector3, Vector2, Vector3};
 
-     extern crate nalgebra as na;
+extern crate nalgebra as na;
 use nalgebra::SMatrix;
+
 
 // Statically sized and statically allocated 2x3 matrix using 32-bit floats.
 type Matrix2x3f = SMatrix<f32, 2, 3>;
@@ -78,7 +79,41 @@ fn main() {
 //
 // This time, we used a dynamically-sized matrix so we must specify the
 // dimensions of the matrix with the first two arguments.
+let dm = DMatrix::from_row_slice(4,3, &[
+    1.0, 0.0, 0.0,
+    0.0, 1.0, 0.0,
+    0.0, 0.0, 1.0,
+    0.0, 0.0, 0.0
+]);
 
+let dm1 = DMatrix::from_vec(4, 3, vec![
+    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0
+]);
 
-    
+let dm2 = DMatrix::from_diagonal_element(4, 3, 1.0);
+let dm3: Matrix<f64, Dynamic, Dynamic,VecStorage<f64, Dynamic, Dynamic>> = DMatrix::identity(4, 3);
+let dm4 = DMatrix::from_fn(4, 3, |r, c| if r == c {1.0} else {0.0});
+let dm5 = DMatrix::from_iterator(4,3, [
+    // Components listed column-by-column.
+    1.0, 0.0, 0.0, 0.0,
+    0.0, 1.0, 0.0, 0.0,
+    0.0, 0.0, 1.0, 0.0
+
+].iter().cloned());
+
+assert_eq!(dm, dm1); assert_eq!(dm, dm2);
+assert_eq!(dm, dm3); assert_eq!(dm, dm4);
+assert_eq!(dm, dm5);
+
+/*
+Column vectors (which are just matrices with a single column) with low dimensions from 1 to 6 have additional constructors:
+*/
+
+// ::x(), ::y(), and ::z() create a vector with, respectively, the first, second, or third coordinate set to 1 and all others to 0.
+// ::a(), ::b(), and ::c() create a vector with, respectively, the fourth, fifth, or sixth coordinate set to 1 and all others to 0.
+
+assert_eq!(Vector3::x(), Vector3::new(1.0, 0.0, 0.0));
+assert_eq!(Vector3::y(), Vector3::new(0.0, 1.0, 0.0));
+assert_eq!(Vector3::z(), Vector3::new(0.0, 0.0, 1.0));
+
 }
