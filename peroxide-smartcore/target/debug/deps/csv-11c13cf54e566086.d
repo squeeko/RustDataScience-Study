@@ -1,0 +1,14 @@
+/Users/jallgood/RustDataScience-Study/peroxide-smartcore/target/debug/deps/csv-11c13cf54e566086.rmeta: /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/lib.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/byte_record.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/cookbook.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/deserializer.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/error.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/reader.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/serializer.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/string_record.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/tutorial.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/writer.rs
+
+/Users/jallgood/RustDataScience-Study/peroxide-smartcore/target/debug/deps/csv-11c13cf54e566086.d: /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/lib.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/byte_record.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/cookbook.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/deserializer.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/error.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/reader.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/serializer.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/string_record.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/tutorial.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/writer.rs
+
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/lib.rs:
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/byte_record.rs:
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/cookbook.rs:
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/deserializer.rs:
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/error.rs:
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/reader.rs:
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/serializer.rs:
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/string_record.rs:
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/tutorial.rs:
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/csv-1.1.6/src/writer.rs:

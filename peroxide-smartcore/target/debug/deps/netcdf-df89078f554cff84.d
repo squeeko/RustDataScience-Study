@@ -1,0 +1,12 @@
+/Users/jallgood/RustDataScience-Study/peroxide-smartcore/target/debug/deps/netcdf-df89078f554cff84.rmeta: /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/lib.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/attribute.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/dimension.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/error.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/file.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/group.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/types.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/variable.rs
+
+/Users/jallgood/RustDataScience-Study/peroxide-smartcore/target/debug/deps/netcdf-df89078f554cff84.d: /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/lib.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/attribute.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/dimension.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/error.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/file.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/group.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/types.rs /Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/variable.rs
+
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/lib.rs:
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/attribute.rs:
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/dimension.rs:
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/error.rs:
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/file.rs:
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/group.rs:
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/types.rs:
+/Users/jallgood/.cargo/registry/src/github.com-1ecc6299db9ec823/netcdf-0.7.0/src/variable.rs:
