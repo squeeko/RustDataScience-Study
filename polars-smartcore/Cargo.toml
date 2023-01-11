@@ -10,3 +10,4 @@ ndarray = "0.15.6"
 polars = "0.26.1"
 polars-core = { version = "0.26.1", features=["ndarray"]}
 smartcore = "0.3.0"
+nalgebra = "0.31.4"
