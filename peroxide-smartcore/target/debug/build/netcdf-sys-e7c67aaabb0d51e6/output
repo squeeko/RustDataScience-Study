@@ -1,3 +1,0 @@
-cargo:rerun-if-changed=build.rs
-cargo:rerun-if-env-changed=NETCDF_DIR
-cargo:rustc-link-lib=netcdf
