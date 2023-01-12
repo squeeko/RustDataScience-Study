@@ -1,6 +1,11 @@
 
 use polars::prelude::*;
 use smartcore::linalg::basic::matrix::DenseMatrix;
+use smartcore::neighbors::knn_classifier::KNNClassifier;
+use smartcore::naive_bayes::gaussian::GaussianNB;
+// Various distance metrics
+use smartcore::metrics::distance::*;
+
 
 
 
@@ -25,7 +30,7 @@ fn main() {
             "SizeOfStackReserve",
             "NumberOfSections",
             "ResourceSize",
-            ]);
+            ]).unwrap();
 
         // println!("{:#?}", features);
 
@@ -33,14 +38,14 @@ fn main() {
             "legitimate",
             ]).unwrap();
 
+            println!("{:#?}", features.dtypes());
             println!("{:#?}", target.dtypes());
-        
-        
-            
-            
-            println!("{:#?}", target);
 
-       
+        let x = DenseMatrix::from_2d_array(&[&[&features]]);
+        let y = vec![target];
+        // println!("{:#?}", x);
+
+       let nb = GaussianNB::<f64>::fit(&x, &y, Default::default()).unwrap();
 
 
     //    println!("{:#?}", df.as_ref().expect("no columns").get_column_names_owned());
