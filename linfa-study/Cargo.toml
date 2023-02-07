@@ -1,0 +1,16 @@
+[package]
+name = "linfa-study"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv = "1.1.6"
+linfa = "0.6.1"
+linfa-bayes = "0.6.1"
+linfa-linear = "0.6.1"
+linfa-trees = "0.6.1"
+ndarray = "0.15.6"
+ndarray-csv = "0.5.1"
+trees = "0.4.2"
